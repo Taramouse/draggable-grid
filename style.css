@@ -31,7 +31,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  cursor: grab;
+  cursor: pointer;
   color: #fff;
   background: #59387d;
   font-size: 40px;
@@ -39,9 +39,7 @@ body {
 }
 .item.muuri-item-dragging .item-content {
   background: #8c9eec;
-  cursor: grabbing;
 }
 .item.muuri-item-releasing .item-content {
   background: #54c877;
-  cursor: grab;
 }
