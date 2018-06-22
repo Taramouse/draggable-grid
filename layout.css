@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e7f5ef;
+}
+
+.grid {
+  position: relative;
+}
+.item {
+  display: block;
+  position: absolute;
+  /* width: 200px; */
+  /* height: 200px; */
+  margin: 5px;
+  text-align: center;
+  z-index: 1;
+}
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+.item-content {
+  position: relative;
+  font-size: 12px;
+  text-align: center;
+}
+.item.muuri-item-dragging .item-content {
+  background: #8c9eec;
+}
+.item.muuri-item-releasing .item-content {
+  background: #54c877;
+}

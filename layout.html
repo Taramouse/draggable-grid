@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="layout.css">
+  <title>Grid Layout</title>
+</head>
+
+<body>
+  <div class="grid">
+    <div class="item">
+      <div class="item-content">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, culpa?</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium iure odio odit nihil fugit? In animi suscipit
+          magnam nisi? Veniam!</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maiores autem odit animi laborum dolor repellendus
+          quidem vero aliquam, unde deleniti libero laudantium explicabo assumenda eveniet. Quos dolorem cupiditate quaerat.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <img src="https://picsum.photos/400/400/?image=1032">
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        One little box
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, consequatur.</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <img src="https://picsum.photos/200/400/?image=1038">
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <img src="https://picsum.photos/100/100/?image=1024">
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <img src="https://picsum.photos/200/200/?image=1026">
+      </div>
+    </div>
+    <div class="item">
+      <div class="item-content">
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations-next-lite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.5.4/muuri.min.js"></script>
+  <script>
+    const grid = new Muuri('.grid', {
+      dragEnabled: false
+    });
+  </script>
+</body>
+
+</html>
